@@ -1,0 +1,1 @@
+SELECT DISTINCT city FROM station WHERE city RLIKE '^[aeiou]'&& RIGHT(CITY,1) IN ('a','i','e','o','u');
